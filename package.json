@@ -1,0 +1,16 @@
+{
+  "name": "stack-exchange-proxy",
+  "version": "1.0.0",
+  "description": "Proxy service for Stack Exchange API to bypass Cloudflare Workers IP blocking",
+  "main": "api/proxy.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
